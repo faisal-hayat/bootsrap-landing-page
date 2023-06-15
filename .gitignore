@@ -826,6 +826,7 @@ FodyWeavers.xsd
 ## Lines added by me 
 *.zip
 bootstrap-5.0.2-dist/
+node_modules/
 
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
