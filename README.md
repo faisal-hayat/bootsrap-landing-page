@@ -13,3 +13,12 @@
 - bootstrap-icons
 
 --- ---
+
+## Execute following commands to install dependencies
+
+```shell
+npm i bootstrap@5.3.0
+npm i bootstrap-icons
+```
+
+--- ---
