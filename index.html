@@ -1,27 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GorrilaCoffe</title>
-    
     <!-- Add styles -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    
     <!-- import the styles -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
     </style>
-    
     <!--bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-
 </head>
-
 <body>
     <!-- Adding header -->
     <header class="header p-3 position-absolute start-0 top-0 end-0">
@@ -33,14 +26,35 @@
                 <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" 
                     aria-expanded="false" aria-label="Toggle navigation">
                     <i class="bi bi-list">
-                        
                     </i>
                 </button>
             </div>
         </div>
     </header>
-    
-    
+    <!-- Navbar -->
+    <nav id="navbar" class="collapse navbar-collapse dropdown-nav">
+        <div class="container-fluid">
+            <div class="row align-content-start">
+                <div class="col-12 col-sm-4">
+                    <a href="#" class="row text-decoration-none">
+                        <div class="col-2 col-sm-12 mb-4">
+                            <img src="img/1-coffe-flavour.jpg" alt="coffe flavour" class="img-fluid" loading="lazy" width="553" height="746">
+                        </div>
+                        <div class="col-10">
+                            <h3>Amazing Flavours</h3>
+                            <p>Find out about more amazing flavours</p>
+                            <p>Learn More</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <button class="navbar-toggler text-black dropdown-nav__closeNavBtn" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-x">
+            </i>
+        </button>
+        </div>
+    </nav>
     <!-- Add javascript -->
     <script src="js/bootstrap.min.js"></script>
 </body>
