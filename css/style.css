@@ -143,3 +143,23 @@ a:hover{
         transform: translateY(-10px);
     }
 }
+
+/*
+steps section
+*/
+
+.steps{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+@media (min-width: 544px){
+    .steps{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+.steps__section-thumbnails{
+
+}
